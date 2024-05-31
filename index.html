@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pavan Bhudiya Portfolio</title>
+  <link href="/styles/styles.css" rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="/images/logo.png" class="logo" alt="logo" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <section id="home">
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>
+            Hi,I'm <span>Pavan</span><br />Bhudiya From Kenya
+          </h1>
+        </div>
+    </div>
+  </div>
+  </section>
+  <!--About me section-->
+
+  <section id="about">
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/background.jpg" alt="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I'm Highly innovative and results-driven Fullstack Developer with a wide knowledge of solving complex
+              problems and a strong passion for innovation in the tech world. Excels in creating efficient, scalable,
+              and user-friendly applications.In the ever-evolving realm of web development, I'm driven by a passion for
+              accessibility, user-centric design, and cultural awareness. This enthusiasm propels me to craft online
+              experiences that resonate deeply and make a positive impact on users across the globe. </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing web/app Interfaces</li>
+                <li><span>Web development</span><br>Web app development</li>
+                <li><span>App development</span><br>Building Android/ios Apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br>Currently pursuing Bachelor of science IT(BIT)</li>
+                <li><span>2022</span><br>Full Stack Developer</li>
+                <li><span>2022</span><br>Completed High School</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr size="3">
+<!---skills section-->
+<div class="container-skills">
+  <div class="outer">
+    <div id="number">80% HTML</div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="HTMLGradientColor">
+          <stop offset="0%" stop-color="#e91e63"/>
+          <stop offset="100%" stop-color="#673ab7"/>
+        </linearGradient>
+      </defs>
+      <circle cx="80" cy="80" r="70" stroke-linecap="round" fill="url(#HTMLGradientColor)"/>
+    </svg>
+  </div>
+
+  <div class="outer">
+    <div id="number">70% CSS</div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="CSSGradientColor">
+          <stop offset="0%" stop-color="#e91e63"/>
+          <stop offset="100%" stop-color="#673ab7"/>
+        </linearGradient>
+      </defs>
+      <circle cx="80" cy="80" r="70" stroke-linecap="round" fill="url(#HTMLGradientColor)"/>
+    </svg>
+  </div>
+
+  <div class="outer">
+    <div id="number">60% C</div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="CGradientColor">
+          <stop offset="0%" stop-color="#e91e63"/>
+          <stop offset="100%" stop-color="#673ab7"/>
+        </linearGradient>
+      </defs>
+      <circle cx="80" cy="80" r="70" stroke-linecap="round" fill="url(#HTMLGradientColor)"/>
+    </svg>
+  </div>
+
+  <div class="outer">
+    <div id="number">70% Python</div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="PythonGradientColor">
+          <stop offset="0%" stop-color="#e91e63"/>
+          <stop offset="100%" stop-color="#673ab7"/>
+        </linearGradient>
+      </defs>
+      <circle cx="80" cy="80" r="70" stroke-linecap="round" fill="url(#HTMLGradientColor)"/>
+    </svg>
+  </div>
+
+  <div class="outer">
+    <div id="number">65% Dart</div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="DartGradientColor">
+          <stop offset="0%" stop-color="#e91e63"/>
+          <stop offset="100%" stop-color="#673ab7"/>
+        </linearGradient>
+      </defs>
+      <circle cx="80" cy="80" r="70" stroke-linecap="round" fill="url(#HTMLGradientColor)"/>
+    </svg>
+  </div>
+
+  <div class="outer">
+    <div id="number">70% Kotlin</div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="KotlinGradientColor">
+          <stop offset="0%" stop-color="#e91e63"/>
+          <stop offset="100%" stop-color="#673ab7"/>
+        </linearGradient>
+      </defs>
+      <circle cx="80" cy="80" r="70" stroke-linecap="round" fill="url(#HTMLGradientColor)"/>
+    </svg>
+  </div>
+
+  <div class="outer">
+    <div id="number">70% Django</div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+      <defs>
+        <linearGradient id="DjangoGradientColor">
+          <stop offset="0%" stop-color="#e91e63"/>
+          <stop offset="100%" stop-color="#673ab7"/>
+        </linearGradient>
+      </defs>
+      <circle cx="80" cy="80" r="70" stroke-linecap="round" fill="url(#HTMLGradientColor)"/>
+    </svg>
+  </div>
+</div>
+
+<!----projects-->
+
+<section id="projects">
+  <div id="project">
+    <h1>PROJECTS</h1>
+
+    <div class="project-container">
+      <div class="project-item">
+        <img src="/images/homeland.png" alt="Project1">
+        <button onclick="viewSite()" class="buttons">View Site</button>
+        <button onclick="viewCode()" class="buttons">View Code</button>
+      </div>
+
+      <div class="project-item">
+        <img src="/images/rental.png" alt="Project2">
+        <button onclick="visitSite()" class="buttons">Visit Site</button>
+        <button onclick="visitCode()" class="buttons">Visit Code</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<hr size="3">
+  <!----contact-->
+  <section id="contact">
+    <div id="contact1">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-titles">Contact Me</h1>
+          <p>pavanbhudiya@gmail.com</p>
+          <p>0731058714</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/pavan-bhudiya-8820081b4/"><img src="images/likedin.png" alt=""
+                height="9%" width="9%"></a>
+            <a href="https://www.instagram.com/pavanbhudiya"><img src="images/instagram.jpg" alt="" height="9%"
+                width="9%"></a>
+            <a href="https://github.com/Pavan-Bhudiya"><img src="images/github.png" alt="" height="9%" width="9%"></a>
+          </div>
+
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Enter Your Name" required>
+            <input type="email" name="Email" placeholder="Enter Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+            <button type="reset" class="btn">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script>
+
+        function viewSite() {
+            window.open('https://homeland-home.netlify.app/');
+        }
+
+        function viewCode() {
+            window.open('https://github.com/Pavan-Bhudiya/Real-Estate');
+        }
+        function visitSite() {
+            window.open('https://car-system.netlify.app/');
+        }
+
+        function visitCode() {
+            window.open('https://github.com/Pavan-Bhudiya/car_rental_system');
+        }
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfYL_eb6YMDC-qt7XEvmstxWsZ_qPBmhP_BrKHDNFqgwzQiLYHAZ94BazrMLVL8qFqWQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
